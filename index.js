@@ -9,7 +9,7 @@ const moment = require('moment')
 
 const { CommandoClient } = require('./commando');
 const client = new CommandoClient({
-    commandPrefix: '~',
+    commandPrefix: '>>',
     owner: process.env.OWNER,
     disableEveryone: true,
     unknownCommandResponse: false,
